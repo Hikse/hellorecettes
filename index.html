@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>HelloRecettes</title>
+<meta name="theme-color" content="#5E9E2E">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="HelloRecettes">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/favicon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="screen"></main>
+<div id="detail" hidden></div>
+<div id="modal" hidden></div>
+<nav id="tabs">
+  <button data-tab="home" class="on"><span class="ic">🏠</span>Accueil</button>
+  <button data-tab="cart"><span class="ic">🛒<b id="badge" hidden></b></span>Panier</button>
+  <button data-tab="history"><span class="ic">🕘</span>Historique</button>
+</nav>
+<script src="app.js"></script>
+</body>
+</html>
